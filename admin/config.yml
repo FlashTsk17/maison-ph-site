@@ -1,0 +1,47 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+collections:
+  - name: "catalogue"
+    label: "Catalogue Maison PH"
+    files:
+      - name: "collections"
+        label: "Créations"
+        file: "data/collections.json"
+        fields:
+          - label: "Collection Homme"
+            name: "homme"
+            widget: "list"
+            label_singular: "Création"
+            summary: "{{titre}}"
+            fields:
+              - { label: "Titre", name: "titre", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Prix (FCFA, optionnel)", name: "prix", widget: "string", required: false }
+              - { label: "Photo", name: "image", widget: "image" }
+
+          - label: "Collection Femme"
+            name: "femme"
+            widget: "list"
+            label_singular: "Création"
+            summary: "{{titre}}"
+            fields:
+              - { label: "Titre", name: "titre", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Prix (FCFA, optionnel)", name: "prix", widget: "string", required: false }
+              - { label: "Photo", name: "image", widget: "image" }
+
+          - label: "Collection Enfant"
+            name: "enfant"
+            widget: "list"
+            label_singular: "Création"
+            summary: "{{titre}}"
+            fields:
+              - { label: "Titre", name: "titre", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Prix (FCFA, optionnel)", name: "prix", widget: "string", required: false }
+              - { label: "Photo", name: "image", widget: "image" }
