@@ -1,0 +1,77 @@
+{
+  "homme": [
+    {
+      "id": "h1",
+      "titre": "Ensemble imprimé assorti",
+      "description": "Chemise à motifs géométriques et pantalon coordonné, coupe ajustée. Une tenue pensée pour un duo ou une sortie en complicité de style.",
+      "prix": "",
+      "image": "images/homme/homme_01_duo.jpg"
+    },
+    {
+      "id": "h2",
+      "titre": "Costume tie-dye bleu",
+      "description": "Ensemble chemise et pantalon en teinture artisanale bleu et jaune, coupe moderne. Une pièce audacieuse pour affirmer un style singulier.",
+      "prix": "",
+      "image": "images/homme/homme_02_tiedye_bleu.jpg"
+    },
+    {
+      "id": "h3",
+      "titre": "Boubou crème",
+      "description": "Tenue traditionnelle revisitée en tons crème, coupe épurée et finitions soignées. L'élégance sobre du sur-mesure.",
+      "prix": "",
+      "image": "images/homme/homme_03_boubou_creme.jpg"
+    },
+    {
+      "id": "h4",
+      "titre": "Chemise fleurie signature PH",
+      "description": "Chemise manches courtes à motifs floraux turquoise, brodée du monogramme PH. Une pièce estivale à l'identité affirmée.",
+      "prix": "",
+      "image": "images/homme/homme_04_turquoise_ph.jpg"
+    },
+    {
+      "id": "h5",
+      "titre": "Chemise imprimée colorée",
+      "description": "Chemise à motifs graphiques multicolores, portée avec un pantalon sombre. Un look casual-chic pour sortir du commun.",
+      "prix": "",
+      "image": "images/homme/homme_05_colore_exterieur.jpg"
+    }
+  ],
+  "femme": [
+    {
+      "id": "f1",
+      "titre": "Ensemble péplum vert",
+      "description": "Haut structuré à finitions perlées et jupe crayon assortie, imprimé vert profond. Une silhouette affirmée, entre rigueur et féminité.",
+      "prix": "",
+      "image": "images/femme/femme_01_verte.jpg"
+    },
+    {
+      "id": "f2",
+      "titre": "Robe blanche brodée",
+      "description": "Robe longue en dentelle et broderie anglaise, coupe fluide. Une pièce lumineuse pour les grandes occasions.",
+      "prix": "",
+      "image": "images/femme/femme_02_blanche.jpg"
+    },
+    {
+      "id": "f3",
+      "titre": "Tailleur rose poudré",
+      "description": "Robe ajustée en tweed rose, poches passepoilées. Un vestiaire de bureau élégant et raffiné.",
+      "prix": "",
+      "image": "images/femme/femme_03_rose.jpg"
+    },
+    {
+      "id": "f4",
+      "titre": "Robe longue motifs bleu et or",
+      "description": "Robe manches longues à imprimés circulaires bleu roi et or, coupe droite. Un imprimé fort porté avec assurance.",
+      "prix": "",
+      "image": "images/femme/femme_04_bleu_motifs.jpg"
+    },
+    {
+      "id": "f5",
+      "titre": "Robe feuillage vert",
+      "description": "Robe mi-longue à motifs feuillages verts et touches rouges, manches bouffantes. Une pièce fraîche et végétale.",
+      "prix": "",
+      "image": "images/femme/femme_05_verte_feuilles.jpg"
+    }
+  ],
+  "enfant": []
+}
