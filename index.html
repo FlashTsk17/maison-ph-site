@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maison PH — Haute Couture sur mesure | Cotonou, Bénin</title>
+<meta name="description" content="Maison PH — Atelier de haute couture à Cotonou. Créations sur mesure pour homme, femme et enfant.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Marcellus&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar">
+  <div class="container">
+    <div class="nav-brand">
+      <svg viewBox="0 0 140 140"><circle cx="70" cy="70" r="60" fill="#0F1E2E" stroke="#C9A961" stroke-width="2.2"/><circle cx="70" cy="70" r="51" fill="none" stroke="#C9A961" stroke-width="1" opacity="0.6"/><text x="70" y="87" font-family="Playfair Display, serif" font-weight="600" font-size="40" text-anchor="middle" fill="#C9A961">PH</text></svg>
+      <span>MAISON PH</span>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#histoire">Notre histoire</a></li>
+      <li><a href="#collections">Collections</a></li>
+      <li><a href="#savoir-faire">Savoir-faire</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://wa.me/22901541574" class="nav-cta" target="_blank">WhatsApp</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-medallion">
+      <svg viewBox="0 0 140 140"><circle cx="70" cy="70" r="60" fill="#0F1E2E" stroke="#C9A961" stroke-width="2.2"/><circle cx="70" cy="70" r="51" fill="none" stroke="#C9A961" stroke-width="1" opacity="0.6"/><text x="70" y="87" font-family="Playfair Display, serif" font-weight="600" font-size="40" text-anchor="middle" fill="#C9A961">PH</text></svg>
+    </div>
+    <h1>MAISON PH</h1>
+    <p class="tagline">Ta grandeur commence par ton style</p>
+    <a href="https://wa.me/22901541574" class="btn-primary" target="_blank">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#0F1E2E"/><path d="M7 17l1-3.2a5.4 5.4 0 1 1 2 2L7 17z" stroke="#C9A961" stroke-width="1.3" fill="none" stroke-linejoin="round"/></svg>
+      Commander sur WhatsApp
+    </a>
+  </div>
+  <div class="hero-scroll">Découvrir ↓</div>
+</header>
+
+<!-- NOTRE HISTOIRE -->
+<section class="section section-ivory" id="histoire">
+  <div class="container">
+    <p class="eyebrow reveal">Depuis Cotonou</p>
+    <h2 class="section-title reveal">Notre histoire</h2>
+    <div class="histoire-grid">
+      <div class="histoire-text reveal">
+        <p>Maison PH est née d'une passion : celle de révéler, à travers le vêtement, l'élégance et l'identité de chacun.</p>
+        <p>Pierre HOUNGBO conçoit des pièces de haute couture sur mesure — pour homme, femme et enfant — où chaque coupe, chaque finition, chaque tissu est pensé avec exigence. Ici, aucune tenue ne sort à la légère : chacune est façonnée pour révéler quelque chose de propre à celui ou celle qui la porte.</p>
+        <p>Ce qui anime Maison PH, ce n'est pas seulement l'habit. C'est l'idée qu'un vêtement bien pensé peut changer la façon dont on se tient, dont on avance, dont on se voit soi-même.</p>
+        <p class="signature-line">Ta grandeur commence par ton style.</p>
+      </div>
+      <div class="histoire-photo reveal">
+        <img src="images/homme/homme_03_boubou_creme.jpg" alt="Pierre HOUNGBO — Maison PH" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COLLECTIONS -->
+<section class="section section-ivory" id="collections" style="background:#fff;">
+  <div class="container">
+    <p class="eyebrow reveal">Nos créations</p>
+    <h2 class="section-title reveal">Collections</h2>
+    <p class="section-sub reveal">Chaque pièce est confectionnée sur mesure. Contactez-nous pour un essayage ou une commande personnalisée.</p>
+
+    <div class="tabs reveal">
+      <button class="tab-btn active" data-cat="homme">Homme</button>
+      <button class="tab-btn" data-cat="femme">Femme</button>
+      <button class="tab-btn" data-cat="enfant">Enfant</button>
+    </div>
+
+    <div class="collection-grid" id="collectionGrid">
+      <!-- rempli par script.js -->
+    </div>
+  </div>
+</section>
+
+<!-- SAVOIR-FAIRE -->
+<section class="section section-navy" id="savoir-faire">
+  <div class="container">
+    <p class="eyebrow reveal">L'exigence du fait-main</p>
+    <h2 class="section-title reveal" style="color:#fff;">Notre savoir-faire</h2>
+    <p class="section-sub reveal">De la prise de mesure à la dernière finition, chaque étape est pensée pour révéler le meilleur de chaque pièce.</p>
+    <div class="savoir-grid">
+      <div class="savoir-item reveal">
+        <div class="icon-circle">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C9A961" stroke-width="1.6"><path d="M12 2l2.4 6.8L21 11l-6.6 2.2L12 20l-2.4-6.8L3 11l6.6-2.2L12 2z"/></svg>
+        </div>
+        <h3>Mesures précises</h3>
+        <p>Chaque pièce démarre par une prise de mesure rigoureuse, pour un tombé parfait sur chaque silhouette.</p>
+      </div>
+      <div class="savoir-item reveal">
+        <div class="icon-circle">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C9A961" stroke-width="1.6"><path d="M3 12c2-4 6-6 9-6s7 2 9 6c-2 4-6 6-9 6s-7-2-9-6z"/><circle cx="12" cy="12" r="2.4"/></svg>
+        </div>
+        <h3>Choix des tissus</h3>
+        <p>Une sélection soignée de matières, entre motifs traditionnels et inspirations contemporaines.</p>
+      </div>
+      <div class="savoir-item reveal">
+        <div class="icon-circle">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C9A961" stroke-width="1.6"><path d="M4 21v-5l11-11 5 5-11 11H4z"/><path d="M14 6l4 4"/></svg>
+        </div>
+        <h3>Finitions à la main</h3>
+        <p>Coutures, boutons, détails — chaque finition est vérifiée pour une qualité qui dure dans le temps.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section section-ivory" id="contact">
+  <div class="container">
+    <p class="eyebrow reveal">Prenons contact</p>
+    <h2 class="section-title reveal">Contact</h2>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-item">
+          <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#C9A961"/><path d="M7 17l1-3.2a5.4 5.4 0 1 1 2 2L7 17z" stroke="#0F1E2E" stroke-width="1.3" fill="none" stroke-linejoin="round"/></svg></div>
+          <div><div class="txt-label">WhatsApp</div><div class="txt-value">+229 01 54 15 74 04</div></div>
+        </div>
+        <div class="contact-item">
+          <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C9A961" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 6l9 7 9-7"/></svg></div>
+          <div><div class="txt-label">Email</div><div class="txt-value">houngboopierre@gmail.com</div></div>
+        </div>
+        <div class="contact-item">
+          <div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C9A961" stroke-width="1.6"><path d="M12 21s7-7.2 7-12a7 7 0 1 0-14 0c0 4.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.4" fill="#C9A961" stroke="none"/></svg></div>
+          <div><div class="txt-label">Atelier</div><div class="txt-value">Gbodjè, Cotonou, Bénin</div></div>
+        </div>
+        <div class="social-row">
+          <a href="#" target="_blank" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F1E2E" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+          <a href="#" target="_blank" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F1E2E" stroke-width="1.6"><path d="M15 3h-2a4 4 0 0 0-4 4v3H6v4h3v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h3V3z"/></svg></a>
+          <a href="#" target="_blank" aria-label="TikTok"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F1E2E" stroke-width="1.6"><path d="M14 3v11.5a3.5 3.5 0 1 1-3-3.46"/><path d="M14 3c.3 2.2 1.9 4 4 4.3"/></svg></a>
+        </div>
+      </div>
+      <div class="contact-cta reveal">
+        <h3>Envie d'une création sur mesure ?</h3>
+        <p>Écrivez-nous directement sur WhatsApp pour discuter de votre projet, prendre rendez-vous ou poser vos questions.</p>
+        <a href="https://wa.me/22901541574" class="btn-primary" target="_blank">Discuter sur WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="brand-line">Ta grandeur commence par ton style</div>
+  <p>© 2026 Maison PH — Cotonou, Bénin · Site réalisé par Tsk's Tech Services dans le cadre du programme Tsk Tremplin</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
